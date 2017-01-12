@@ -1,0 +1,29 @@
+<com.jjc.Immerse.ui.ListenerScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:fillViewport="true"
+    android:id="@+id/lsv"
+    tools:context="com.jjc.Immerse.ImmerseAndScrollFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/arthur" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n一大堆文字，用来测试滚动\n" />
+    </LinearLayout>
+
+</com.jjc.Immerse.ui.ListenerScrollView>

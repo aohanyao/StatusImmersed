@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#efefef"
+    android:orientation="horizontal"
+    android:paddingTop="0.5dp"
+    android:elevation="3dp"
+    android:layout_gravity="bottom"
+    tools:showIn="@layout/content_main">
+
+    <LinearLayout
+        android:id="@+id/ll_main_status_and_scroll"
+        style="@style/MainMenuLinearStyle">
+
+        <ImageView
+            android:id="@+id/iv_main_status_and_scroll"
+            style="@style/MainMenuImageStyle"
+            android:src="@mipmap/my_server" />
+
+        <TextView
+            android:id="@+id/tv_main_status_and_scroll"
+            style="@style/MainMenuTextStyle"
+            android:text="沉浸1+滑动透明" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main_no_status"
+        style="@style/MainMenuLinearStyle">
+
+        <ImageView
+            android:id="@+id/iv_main_no_status"
+            style="@style/MainMenuImageStyle"
+            android:src="@mipmap/my_yuyeu" />
+
+        <TextView
+            android:id="@+id/tv_main_no_status"
+            style="@style/MainMenuTextStyle"
+            android:text="不沉浸" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main_status"
+        style="@style/MainMenuLinearStyle">
+
+        <ImageView
+            android:id="@+id/iv_main_status"
+            style="@style/MainMenuImageStyle"
+            android:src="@mipmap/order_center" />
+
+        <TextView
+            android:id="@+id/tv_main_status_"
+            style="@style/MainMenuTextStyle"
+            android:text="沉浸2" />
+    </LinearLayout>
+
+
+</LinearLayout>
